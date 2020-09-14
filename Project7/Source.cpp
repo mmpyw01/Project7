@@ -15,7 +15,7 @@ int main()
 	scanf("%d", &sci);
 	
 	pc = (th + eng + com + math + sci)/ 5.0;
-	printf("%f", pc);
+	printf("%.2f\n", pc);
 
 	if (pc >= 80) {
 		printf("Grade A");
